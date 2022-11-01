@@ -1,0 +1,11 @@
+using system;
+class booleans
+{
+  public static void main()
+  {
+  bool content =true;
+  bool nocontent = false;
+  console.writeline("Text is {0}",content);
+  console.writeline("Text is {0}",nocontent);
+  }
+}
