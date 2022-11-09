@@ -1,0 +1,17 @@
+using System;
+
+namespace pg3
+{
+    class Program
+    {
+        public static void Main(string[] args)
+        {
+            int x = 0;
+            int y = 0;
+            float num1 = Math.Abs(x - y);
+            float num2 = (float)Math.Pow(num1, Math.Abs(y));
+            float num3 = (float)Math.Sqrt(num2);
+            Console.ReadKey();
+        }
+    }
+}
